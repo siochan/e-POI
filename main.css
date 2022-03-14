@@ -6,6 +6,12 @@ section {
   background-color: white;
 }
 
+logo{ 
+	position: absolute; 
+	top: 8px; 
+	left: 16px; 
+}
+
 .hero {
   background-color: #1c1d25;
   height: 100vh;
@@ -131,7 +137,7 @@ p {
 
 .project-card {
   width: 300px;
-  height: 500px;
+  height: 600px;
   box-shadow: 5px 5px 20px grey;
   margin: 10px;
 }
@@ -151,7 +157,8 @@ p {
 .project-image {
   margin-top: 25px;
   width: 250px;
-  border-radius: 125px;
+  height: 400px;
+  /*border-radius: 125px;*/
 }
 
 hr {
