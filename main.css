@@ -74,6 +74,7 @@ p {
 }
 
 .hero-text {
+  margin-right: 80px;
   margin-left: 80px;
   margin-bottom: 200px;
 }
@@ -126,8 +127,8 @@ p {
 }
 
 .headshot {
-  width: 300px;
-  border-radius: 150px;
+  width: 450px;
+  border-radius: 0px;
 }
 
 .headshot-container {
