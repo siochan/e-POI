@@ -6,12 +6,6 @@ section {
   background-color: white;
 }
 
-logo{ 
-	position: absolute; 
-	top: 8px; 
-	left: 16px; 
-}
-
 .hero {
   background-color: #1c1d25;
   height: 100vh;
@@ -21,9 +15,10 @@ logo{
 
 footer {
   height: 500px;
-  background-color: white;
   text-align: center;
   padding: 80px;
+  background-color: #1c1d25;
+  color:white;
 }
 
 nav {
@@ -74,7 +69,6 @@ p {
 }
 
 .hero-text {
-  margin-right: 80px;
   margin-left: 80px;
   margin-bottom: 200px;
 }
@@ -127,8 +121,27 @@ p {
 }
 
 .headshot {
-  width: 450px;
-  border-radius: 0px;
+  width: 300px;
+  border-radius: 150px;
+}
+
+.personas{
+  display: flex;
+  align-items: center;
+  width: 1000px;
+}
+
+.backendArchitecture{
+  display: flex;
+  align-items: center;
+  width: 1200px;
+}
+
+.uml{
+  display: flex;
+  align-items: center;
+  width: 950px;
+
 }
 
 .headshot-container {
